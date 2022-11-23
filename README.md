@@ -17,6 +17,12 @@
 - ecsa：楕円曲線 DSA
 - filelock：排他ロック
 
+```
+pip install base58
+pip install ecsa
+pip install filelock
+```
+
 # ファイル
 
 - key.py: 秘密鍵と公開鍵のペアを生成する
@@ -43,3 +49,7 @@
 電子署名を行い、トランザクションを作成する。引数は key.txt からコピペする。
 
 `python sign.py in-private in-public out-public`
+
+電子署名を検証する（公開鍵で署名を復号し、トランザクションハッシュと突合する）
+
+`python verify.py`
