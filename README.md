@@ -32,3 +32,14 @@
 - block.txt: ブロックチェーンの記録（自動生成）
 - user1: P2P 実験用フォルダ
 - user2: P2P 実験用フォルダ
+
+# 実行方法
+
+支払元（入力）と支払先（出力）の秘密鍵と公開鍵を生成する。
+
+`python key.py`
+`python key.py`
+
+電子署名を行い、トランザクションを作成する。引数は key.txt からコピペする。
+
+`python sign.py in-private in-public out-public`

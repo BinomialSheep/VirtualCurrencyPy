@@ -3,6 +3,8 @@ import ecdsa
 import filelock
 import json
 
+# 秘密鍵と公開鍵を生成し、key.txtに出力する
+
 # 引数は楕円曲線の種類。secp256k1はビットコインでも使われているらしい
 private_key = ecdsa.SigningKey.generate(curve = ecdsa.SECP256k1)
 public_key = private_key.get_verifying_key()
