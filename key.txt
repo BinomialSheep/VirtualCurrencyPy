@@ -6,5 +6,9 @@
   {
     "private": "F4yZpWjSY2eYgrhZhx7fRdQXudzmuaN59eMBmZrGKUVC",
     "public": "egifksKkdf194YW1iF6uzj2pkukhRWh3GLXy5oSAcvPP6fY2KfB71EW6S7AvmqDhC3cJoTsTMYRroDgdnDXu6Yj"
+  },
+  {
+    "private": "J5ymdx5yaHJ9ntE39BCjWFQRGrhLuNtsFRrDPBzZRJwL",
+    "public": "2sw5vfepiELwT5YPf5fmgt72mvgUpidGMUSH6pcHRtggVdcZz3DvCD4exTPTgUbptsgkz7yHmZ7G9P9c44RaCVKo"
   }
 ]
